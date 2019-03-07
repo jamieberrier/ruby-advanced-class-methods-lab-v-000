@@ -68,7 +68,11 @@ class Song
     filename_array = filename.split(".")[0].split("-")
     @song.artist_name = filename_array[0].rstrip!
     @song.name = filename_array[1].strip!
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f7523450fd972db253038fb31016d45acd7c5a4d
     self.all << @song
     
     @song
